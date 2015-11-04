@@ -1,0 +1,21 @@
+﻿Build started 05-Nov-15 2:09:34 AM.
+     1>Project "C:\Users\pagon_000\Desktop\LTHDT\Code\Code\Code.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\pagon_000\Desktop\LTHDT\Code\packages\boost.1.59.0.0\build\native\..\..\lib\native\include\ /IC:\Users\pagon_000\Desktop\LTHDT\Code\packages\sqlite.3.8.4.2\build\native\../..//build/native/include/ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\Code.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Code.cpp FileStudent.cpp
+         FileStudent.cpp
+     1>c:\users\pagon_000\desktop\lthdt\code\code\filestudent.cpp(35): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\pagon_000\desktop\lthdt\code\code\filestudent.cpp(38): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\pagon_000\desktop\lthdt\code\code\filestudent.cpp(50): warning C4018: '<': signed/unsigned mismatch
+         Code.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pagon_000\Desktop\LTHDT\Code\Debug\Code.exe" /INCREMENTAL /NOLOGO C:\Users\pagon_000\Desktop\LTHDT\Code\packages\sqlite.3.8.4.2\build\native\../..//build/native/lib/Win32\Debug\sqlite3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\pagon_000\Desktop\LTHDT\Code\Debug\Code.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pagon_000\Desktop\LTHDT\Code\Debug\Code.lib" /MACHINE:X86 Debug\Code.obj
+         Debug\Database.obj
+         Debug\FileStudent.obj
+         Debug\stdafx.obj
+         Code.vcxproj -> C:\Users\pagon_000\Desktop\LTHDT\Code\Debug\Code.exe
+     1>Done Building Project "C:\Users\pagon_000\Desktop\LTHDT\Code\Code\Code.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.81
