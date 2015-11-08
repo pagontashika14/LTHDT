@@ -1,0 +1,18 @@
+﻿Build started 08-Nov-15 1:48:51 PM.
+     1>Project "C:\Users\pagon\Desktop\BaiTapLTHDT\SourceCode2\SourceCode\SourceCode.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\pagon\Desktop\BaiTapLTHDT\SourceCode2\packages\boost.1.59.0.0\build\native\..\..\lib\native\include\ /IC:\Users\pagon\Desktop\BaiTapLTHDT\SourceCode2\packages\sqlite.3.8.4.2\build\native\../..//build/native/include/ /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Debug\SourceCode.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt SourceCode.cpp
+         Skipping... (no relevant changes detected)
+         SourceCode.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pagon\Desktop\BaiTapLTHDT\SourceCode2\x64\Debug\SourceCode.exe" /INCREMENTAL /NOLOGO C:\Users\pagon\Desktop\BaiTapLTHDT\SourceCode2\packages\sqlite.3.8.4.2\build\native\../..//build/native/lib/x64\Debug\sqlite3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\pagon\Desktop\BaiTapLTHDT\SourceCode2\x64\Debug\SourceCode.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pagon\Desktop\BaiTapLTHDT\SourceCode2\x64\Debug\SourceCode.lib" /MACHINE:X64 x64\Debug\CutString.obj
+         x64\Debug\FileStudent.obj
+         x64\Debug\SourceCode.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\Student.obj
+         SourceCode.vcxproj -> C:\Users\pagon\Desktop\BaiTapLTHDT\SourceCode2\x64\Debug\SourceCode.exe
+     1>Done Building Project "C:\Users\pagon\Desktop\BaiTapLTHDT\SourceCode2\SourceCode\SourceCode.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.88

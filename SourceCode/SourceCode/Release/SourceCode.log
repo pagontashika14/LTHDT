@@ -1,0 +1,24 @@
+﻿Build started 08-Nov-15 12:47:31 PM.
+     1>Project "C:\Users\pagon\Desktop\BaiTapLTHDT\SourceCode\SourceCode\SourceCode.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\pagon\Desktop\BaiTapLTHDT\SourceCode\packages\boost.1.59.0.0\build\native\..\..\lib\native\include\ /IC:\Users\pagon\Desktop\BaiTapLTHDT\SourceCode\packages\sqlite.3.8.4.2\build\native\../..//build/native/include/ /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\SourceCode.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt SourceCode.cpp
+         SourceCode.cpp
+     1>SourceCode.cpp(17): warning C4101: 'status': unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pagon\Desktop\BaiTapLTHDT\SourceCode\Release\SourceCode.exe" /INCREMENTAL:NO /NOLOGO C:\Users\pagon\Desktop\BaiTapLTHDT\SourceCode\packages\sqlite.3.8.4.2\build\native\../..//build/native/lib/Win32\Release\sqlite3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\pagon\Desktop\BaiTapLTHDT\SourceCode\Release\SourceCode.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pagon\Desktop\BaiTapLTHDT\SourceCode\Release\SourceCode.lib" /MACHINE:X86 /SAFESEH Release\CutString.obj
+         Release\DataBase.obj
+         Release\FileStudent.obj
+         Release\SourceCode.obj
+         Release\stdafx.obj
+         Release\Student.obj
+         Generating code
+         8 of 1069 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+           7 functions were new in current compilation
+           31 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         SourceCode.vcxproj -> C:\Users\pagon\Desktop\BaiTapLTHDT\SourceCode\Release\SourceCode.exe
+     1>Done Building Project "C:\Users\pagon\Desktop\BaiTapLTHDT\SourceCode\SourceCode\SourceCode.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.78
