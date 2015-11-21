@@ -1,5 +1,27 @@
-﻿Build started 08-Nov-15 3:12:45 PM.
+﻿Build started 11/20/2015 5:09:57 PM.
+     1>Project "C:\Users\Pagonta Shika\Desktop\LTHDT\SourceCode\SourceCode\SourceCode.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Pagonta Shika\Desktop\LTHDT\SourceCode\packages\boost.1.59.0.0\build\native\..\..\lib\native\include\\" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\SourceCode.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt FileStudent.cpp MyLocalData.cpp SourceCode.cpp Student.cpp
+         SourceCode.cpp
+     1>c:\users\pagonta shika\desktop\lthdt\sourcecode\sourcecode\sourcecode.cpp(22): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+         Compiling...
+         Student.cpp
+         MyLocalData.cpp
+         FileStudent.cpp
+     1>c:\users\pagonta shika\desktop\lthdt\sourcecode\sourcecode\filestudent.cpp(67): warning C4018: '<': signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Pagonta Shika\Desktop\LTHDT\SourceCode\Debug\SourceCode.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Pagonta Shika\Desktop\LTHDT\SourceCode\Debug\SourceCode.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Pagonta Shika\Desktop\LTHDT\SourceCode\Debug\SourceCode.lib" /MACHINE:X86 Debug\CutString.obj
+         Debug\FileStudent.obj
+         Debug\MyLocalData.obj
+         Debug\SourceCode.obj
+         Debug\sqlite3.obj
+         Debug\stdafx.obj
+         Debug\Student.obj
+         SourceCode.vcxproj -> C:\Users\Pagonta Shika\Desktop\LTHDT\SourceCode\Debug\SourceCode.exe
+     1>Done Building Project "C:\Users\Pagonta Shika\Desktop\LTHDT\SourceCode\SourceCode\SourceCode.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.01
+Time Elapsed 00:00:11.21
